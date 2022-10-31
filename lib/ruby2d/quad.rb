@@ -40,6 +40,12 @@ module Ruby2D
       @y3 = y3
       @x4 = x4
       @y4 = y4
+
+      @side1 = Line.new(x1: x1)
+      @side2
+      @side3
+      @side4
+
       @z  = z
       self.color = color || colour || 'white'
       self.color.opacity = opacity unless opacity.nil?
